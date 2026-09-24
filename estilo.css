@@ -6,7 +6,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    color:  #1a1a1a;
+    color:  #000000;
     line-height: 1.8;
 }
 
@@ -66,4 +66,86 @@ footer {
     color: #ffffff;
     text-align: center;
     padding: 28px 18px;
+}
+
+.agendamento {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.dados-paciente {
+    background-color: #ddd;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.consulta {
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.consulta-presencial {
+    background-color: #e8f5e9;
+    border-left: 4px solid #2b7d4d;
+}
+
+.consulta-especializada {
+    background-color: #e3f2fd;
+    border-left: 4px solid #1976d2;
+}
+
+
+#nome {
+    border: 2px solid #1976d2;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+#email {
+    border: 2px solid #1976d2;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+#telefone {
+    border: 2px solid #1976d2;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+#data {
+    border: 2px solid #2b7d4d;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+#hora {
+    border: 2px solid #2b7d4d;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+#especialidade {
+    border: 2px solid #2b7d4d;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+#mensagem {
+    border: 2px solid #000000;
+    border-radius: 6px;
+    padding: 8px;
+}
+body {
+    background-image: url('clinica.jpg');
+    background-size: cover;
+    background-position: center;
 }
